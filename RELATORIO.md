@@ -6,8 +6,8 @@
 
 ## Identificação
 
-- **Nome**: <mark>`<preencher>`</mark>
-- **Cartão UFRGS:** <mark>`<preencher>`</mark>
+- **Nome**: Pedro Marhofer Alles
+- **Cartão UFRGS:** 00326188
 
 ## Dados utilizados
 
@@ -17,11 +17,8 @@
 > - Se houver mais de um conjunto de dados, liste todos separadamente.
 > - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
 
-1. **Dataset 1**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-2. **Dataset 2**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-3. ...
+1. **Dataset 1**: (https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj)
+    * **Descrição curta**: amostra de 100 mil registros de empresas ativas do Brasil (CNPJ), contendo informações como natureza jurídica e capital social.
 
 ## Código-fonte da visualização
 
@@ -29,8 +26,8 @@
 >
 > - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: <mark>`<preencher>`</mark>
-- **Arquivos complementares (se houver)**: <mark>`<preencher>`</mark>
+- **Arquivo principal**: (Visualizacao.ipynb)
+- **Arquivos complementares (se houver)**: (amostra_cnpj_para_professor.csv)
 
 ## Imagem da visualização gerada
 
