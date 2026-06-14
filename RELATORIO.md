@@ -26,8 +26,8 @@
 >
 > - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: (Visualizacao.ipynb)
-- **Arquivos complementares (se houver)**: (amostra_cnpj_para_professor.csv)
+- **Arquivo principal**: [Visualizacao.ipynb](Visualizacao.ipynb)
+- **Arquivos complementares (se houver)**: [amostra_cnpj_para_professor.csv](amostra_cnpj_para_professor.csv)
 
 ## Imagem da visualização gerada
 
@@ -35,8 +35,6 @@
 >
 > - Insira aqui uma imagem da visualização criada por você. Troque `imagem-da-visualizacao.png` pelo caminho correto do arquivo no repositório. 
 > - Se você criou alguma visualização interativa, então descreva aqui como acessá-la. Por exemplo, se for uma página HTML, coloque o link, ou se for uma visualização 3D, descreva como compilar e executar o código. 
-
-<mark>`<preencher abaixo>`</mark>
 
 ![Visualização resultante](imagem-da-visualizacao.png)
 
@@ -49,7 +47,7 @@
 > - Escreva um texto curto explicando como interpretar a visualização. Descreva os elementos visuais, eixos, cores, símbolos ou interações relevantes.
 > - Este texto seria a legenda (*caption*) que acompanharia a figura em uma publicação, por exemplo.
 
-<mark>`<preencher>`</mark>
+A imagem é composta por duas análises baseadas em uma amostra aleatória de 100 mil registros ativos do CNPJ. O gráfico à esquerda (barplot) apresenta o volume de inscrições categorizado por Natureza Jurídica, utilizando escala logarítmica no eixo X (base 10) para acomodar a grande diferença numérica entre as categorias. O gráfico à direita (boxplot) mostra a distribuição do Capital Social (em Reais) para as mesmas naturezas jurídicas, também em escala logarítmica no eixo X, evidenciando as medianas, quartis e outliers financeiros de cada modelo societário.
 
 ### Conclusão demonstrada pela visualização
 
@@ -58,4 +56,4 @@
 > - Escreva uma conclusão curta sobre os dados com base na visualização.
 > - Explique qual insight, padrão ou tendência pode ser observado.
 
-<mark>`<preencher>`</mark>
+A visualização demonstra uma clara diferença entre o volume de inscrições e a concentração de capital financeiro no cenário empresarial brasileiro. É possível notar que os Empresários Individuais (incluindo MEIs) dominam esmagadoramente o número absoluto de registros, mas apresentam a menor mediana e variação de capital social. Em contraste, as Sociedades Anônimas Fechadas, embora possuam um volume de cadastros muito pequeno (ficando à frente apenas das EIRELIs, que representam a menor categoria da amostra), concentram isoladamente os maiores valores de capital social. Isso evidencia como a riqueza está fortemente concentrada em tipos societários de alta complexidade, enquanto a base da pirâmide é formada por uma quantidade massiva de micro e pequenos negócios de baixíssimo capital.
